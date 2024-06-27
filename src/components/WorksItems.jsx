@@ -1,21 +1,21 @@
 import React from "react";
 
-function WorkItems({ year, title, build, detail }) {
+function WorksItems({ tanggal, title, perusahaan, detail }) {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
       <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-stone-50 rounded-full mt-1.5 -left-1.5 border-white" />
+        <div className="absolute w-3 h-3 bg-stone-50 rounded-full mt-1.5 -left-1.5 border-white " />
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
           <span className="inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md">
-            {year}
+            {tanggal}
           </span>
           <span className="text-lg font-semibold text-[#001b5e]">{title}</span>
           <span className="my-1 text-sm font-normal leading-none text-stone-500 ">
-            {build}
+            {perusahaan}
           </span>
         </p>
         <p>
-          <span className="my-2 text-base font-normal text-stone-700 text">
+          <span className="my-2 text-base font-normal text-stone-700 text-justify">
             {detail}
           </span>
         </p>
@@ -24,4 +24,4 @@ function WorkItems({ year, title, build, detail }) {
   );
 }
 
-export default WorkItems;
+export default WorksItems;
