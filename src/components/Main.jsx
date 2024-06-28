@@ -1,6 +1,8 @@
 import React from "react";
 import background from "../assets/Image/1692347361363.jpg";
+import CV from "../assets/CV_Sapto_Adiyanto.pdf";
 import { TypeAnimation } from "react-type-animation";
+import { MdOutlineWork } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Main = () => {
@@ -33,7 +35,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-4 max-w-[200px] w-full">
+          <div className="flex justify-between pt-4 items-center max-w-[200px] w-full">
             <a
               href="https://www.linkedin.com/in/sapto-adiyanto-787351207/"
               target="_blank"
@@ -54,6 +56,14 @@ const Main = () => {
               target="_blank"
               rel="noreferrer">
               <FaGithub className="cursor-pointer" size={30} />
+            </a>
+            <a
+              href={CV}
+              className="text-[#001b5e]"
+              target="_blank"
+              download
+              rel="noreferrer">
+              <MdOutlineWork className="cursor-pointer" size={30} />
             </a>
           </div>
         </div>

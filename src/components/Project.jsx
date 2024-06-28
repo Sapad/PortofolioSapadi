@@ -13,8 +13,8 @@ const Project = () => {
       name: "Blog Jewepe Sederhana ",
       years: "2023",
       detail:
-        "Blog ini dibangun menggunakan html, CSS, dan JavaScript. Dalam Website sederhana ini dapat menampilkan dan membaca blog. pada sisi admin dapat CRUD dan manajemen blog website tersebut.",
-      bahasa: "HTML, CSS, Javascript",
+        "Blog ini dibangun menggunakan html, CSS, JavaScript, PHP, dan MySQL. Dalam Website sederhana ini dapat menampilkan dan membaca blog. pada sisi admin dapat CRUD dan manajemen blog website tersebut.",
+      bahasa: "HTML, CSS, Javascript, PHP, Mysql",
     },
     {
       name: "Clone Youtebe",

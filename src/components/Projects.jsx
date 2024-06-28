@@ -33,7 +33,7 @@ function Projects() {
           img={Blog}
           title="Blog"
           bahasa="CodeIgniter, Mysql"
-          github="https://github.com/Sapad/Blog"
+          github="https://github.com/Sapad/Blog-jewepe"
         />
         <ProjectsItem
           img={Youtube}
