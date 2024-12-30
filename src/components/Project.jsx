@@ -3,6 +3,13 @@ import WorkItems from "./WorkItems";
 const Project = () => {
   const data = [
     {
+      name: "E-Commerce Website Sederhana",
+      years: "2024",
+      detail:
+        "Website E-Commerce sederhana yang dapat dilakukan dengan user dan member management dengan NextJS dengan pemrograman typescript dan scss. Serta, database yang digunakan adalah Firebase. Dalam Website ini terdapat fitur CRUD dan manajemen product dan manajemen member. Pada sisi admin terdapat fitur CRUD dan manajemen katalog dan manajemen member. selain itu terdapat integrasi midtrans yang dilakukan dengan menggunakan API Midtrans dengan pembayaran menggunakan sandbox.",
+      bahasa: "CodeIgniter, Mysql",
+    },
+    {
       name: "Wedding Organizer",
       years: "2024",
       detail:

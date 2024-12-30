@@ -8,6 +8,7 @@ import Blog from "../assets/Image/Blog.png";
 import Wedding from "../assets/Image/Wedding.png";
 import Youtube from "../assets/Image/Youtube.png";
 import Disney from "../assets/Image/Disney.png";
+import Ecommerce from "../assets/Image/E-commerce.png";
 
 function Projects() {
   return (
@@ -23,6 +24,12 @@ function Projects() {
         ExpressJs, Vue.
       </p>
       <div className="grid sm:grid-cols-3 gap-8">
+        <ProjectsItem
+          img={Ecommerce}
+          title="E-commerce"
+          bahasa="NextJS, Typescript, Scss, Firebase, Midtrans"
+          url="https://tokol12.vercel.app"
+        />
         <ProjectsItem
           img={Wedding}
           title="Wedding Organizer"

@@ -14,7 +14,7 @@ function WorkItems({ year, title, build, detail }) {
             {build}
           </span>
         </p>
-        <p>
+        <p className="text-justify">
           <span className="my-2 text-base font-normal text-stone-700 text">
             {detail}
           </span>
