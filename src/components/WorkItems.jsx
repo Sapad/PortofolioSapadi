@@ -2,7 +2,7 @@ import React from "react";
 
 function WorkItems({ year, title, build, detail }) {
   return (
-    <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
+    <ol className="flex flex-col md:flex-row relative border-stone-200">
       <li className="mb-10 ml-4">
         <div className="absolute w-3 h-3 bg-stone-50 rounded-full mt-1.5 -left-1.5 border-white" />
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
@@ -14,7 +14,7 @@ function WorkItems({ year, title, build, detail }) {
             {build}
           </span>
         </p>
-        <p className="text-justify">
+        <p className="text-justify pt-2">
           <span className="my-2 text-base font-normal text-stone-700 text">
             {detail}
           </span>

@@ -5,63 +5,82 @@ const Project = () => {
     {
       name: "E-Commerce Website Sederhana",
       years: "2024",
-      detail:
-        "Website E-Commerce sederhana yang dapat dilakukan dengan user dan member management dengan NextJS dengan pemrograman typescript dan scss. Serta, database yang digunakan adalah Firebase. Dalam Website ini terdapat fitur CRUD dan manajemen product dan manajemen member. Pada sisi admin terdapat fitur CRUD dan manajemen katalog dan manajemen member. selain itu terdapat integrasi midtrans yang dilakukan dengan menggunakan API Midtrans dengan pembayaran menggunakan sandbox.",
-      bahasa: "CodeIgniter, Mysql",
+      detail: [
+        "Website E-Commerce sederhana ini dibangun menggunakan Next.js dengan TypeScript dan SCSS, dilengkapi dengan fitur user & member management untuk pengalaman pengguna yang lebih terstruktur.",
+        "Sebagai backend, website ini memanfaatkan Firebase sebagai database utama untuk menyimpan dan mengelola data secara real-time.",
+        "Fitur utama yang tersedia meliputi CRUD (Create, Read, Update, Delete) serta manajemen produk dan pengguna. Pada sisi admin, terdapat sistem manajemen katalog dan member, memungkinkan pengelolaan yang efisien dan terorganisir.",
+        "Selain itu, website ini telah terintegrasi dengan Midtrans Payment Gateway, menggunakan Midtrans API dengan metode pembayaran melalui sandbox environment, memastikan proses transaksi dapat diuji dengan aman sebelum diterapkan secara live.",
+      ],
+      bahasa: "NextJS, Firebase, Typescript, Scss, Midtrans",
     },
     {
       name: "Wedding Organizer",
       years: "2024",
-      detail:
-        "Wedding organizer ini dibangun menggunakan CodeIgniter dan Mysql. Dalam Website ini terdapat fitur CRUD dan manajemen katalog paket pernikahan hingga laporan keuangan dalam sisi admin. Pada sisi pelanggan terdapat menu detail setiap paket untuk melakukan pesanan dan konfirmasi melalui email. ",
+      detail: [
+        "Website Wedding Organizer ini dikembangkan menggunakan CodeIgniter dan MySQL, menghadirkan sistem manajemen pernikahan yang efisien dan terstruktur.",
+        "Pada sisi admin, tersedia fitur CRUD untuk pengelolaan data, manajemen katalog paket pernikahan, serta laporan keuangan, memungkinkan administrasi yang lebih efektif.",
+        "Sementara itu, pada sisi pelanggan, website ini menyediakan halaman detail paket pernikahan, memungkinkan pengguna untuk melihat informasi lengkap sebelum melakukan pemesanan. Proses pemesanan juga dilengkapi dengan fitur konfirmasi melalui email, memastikan pengalaman pengguna yang lebih praktis dan profesional.",
+      ],
       bahasa: "CodeIgniter, Mysql",
     },
     {
       name: "Blog Jewepe Sederhana ",
       years: "2023",
-      detail:
-        "Blog ini dibangun menggunakan html, CSS, JavaScript, PHP, dan MySQL. Dalam Website sederhana ini dapat menampilkan dan membaca blog. pada sisi admin dapat CRUD dan manajemen blog website tersebut.",
+      detail: [
+        "Website Blog ini dikembangkan menggunakan HTML, CSS, JavaScript, PHP, dan MySQL, menghadirkan platform sederhana namun fungsional untuk menampilkan dan membaca artikel blog.",
+        "Pada sisi admin, tersedia fitur CRUD (Create, Read, Update, Delete) serta sistem manajemen konten, memungkinkan pengelolaan blog yang lebih terstruktur dan efisien.",
+      ],
       bahasa: "HTML, CSS, Javascript, PHP, Mysql",
     },
     {
       name: "Clone Youtebe",
       years: "2023",
-      detail:
-        "Clone Youtebe ini dibangun menggunakan ReactJs dan Tailwind CSS dengan API youtube. menampilkan video, memutar video, serta menampilkan sesuai kategori.",
-      bahasa: "React JS, Tailwind CSS",
+      detail: [
+        "Website Clone YouTube ini dikembangkan menggunakan React.js dan Tailwind CSS, dengan integrasi YouTube API untuk menghadirkan pengalaman menonton video yang interaktif.",
+        "Fitur utama mencakup penayangan dan pemutaran video, serta kategori video yang memungkinkan pengguna menemukan konten sesuai minat mereka dengan mudah",
+      ],
+      bahasa: "React JS, Tailwind CSS, YouTube API",
     },
     {
       name: "Clone Disney+",
       years: "2023",
-      detail:
-        "Clone Disney+ ini dibangun menggunakan ReactJs dan Tailwind CSS dan IMDb API. Website ini hanya menampilkan home disney+",
-      bahasa: "React JS, Tailwind CSS",
+      detail: [
+        "Website Clone Disney+ ini dikembangkan menggunakan React.js dan Tailwind CSS, dengan integrasi IMDb API untuk menampilkan informasi film dan serial.",
+        "Website ini menghadirkan tampilan halaman utama Disney+, memberikan pengalaman visual yang menarik dan responsif.",
+      ],
+      bahasa: "React JS, Tailwind CSS, IMDb API",
     },
     {
       name: "Portofolio",
       years: "2023",
-      detail:
-        "Portofolio ini dibangun menggunakan ReactJs dan Tailwind CSS. Portofolio ini dibangun menggunakan ReactJs dan Tailwind CSS.",
+      detail: [
+        "Portofolio ini dikembangkan menggunakan React.js dan Tailwind CSS, menghadirkan desain yang modern, responsif, dan interaktif untuk menampilkan karya serta pengalaman secara profesional.",
+      ],
       bahasa: "React JS, Tailwind CSS",
     },
     {
       name: "Wisata Sleman DIY",
       years: "2022",
-      detail:
-        "Wisata Sleman terdiri dari museum gunung berapi. Tempat ini memiliki ruangan dan simulasi gunung merapi yang meletus pada tahun 2010.",
+      detail: [
+        "Wisata Sleman menawarkan pengalaman edukatif melalui Museum Gunung Api Merapi, yang menampilkan berbagai informasi tentang aktivitas vulkanik. Museum ini dilengkapi dengan ruangan simulasi erupsi Gunung Merapi tahun 2010, memberikan pengunjung pengalaman yang imersif dan mendalam mengenai salah satu letusan terbesar di Indonesia.",
+      ],
       bahasa: "HTMl, CSS, Javascript",
     },
     {
       name: "Bookstore",
       years: "2021",
-      detail: "Manajemen buku Create, Read, Update dan Delete menggunakan vue.",
+      detail: [
+        "Sistem Manajemen Buku ini dikembangkan menggunakan Vue.js, dengan fitur CRUD (Create, Read, Update, Delete) yang memungkinkan pengelolaan data buku secara efisien dan interaktif.",
+      ],
       bahasa: "Vue, Bootstrap",
     },
     {
       name: "Bookstore",
       years: "2021",
-      detail:
-        "Manajemen buku Create, Read, Update dan Delete menggunakan ReactJs dengan bantuan Express JS dan MonggoDB.",
+      detail: [
+        "Sistem Manajemen Buku ini dikembangkan menggunakan React.js untuk frontend, dengan Express.js sebagai backend dan MongoDB sebagai database.",
+        "Fitur utama mencakup CRUD (Create, Read, Update, Delete), memungkinkan pengelolaan data buku secara dinamis dan efisien dalam sebuah aplikasi berbasis web.",
+      ],
       bahasa: "React JS, MonggoDB, Express JS",
     },
   ];
@@ -78,7 +97,13 @@ const Project = () => {
           year={item.years}
           title={item.name}
           build={item.bahasa}
-          detail={item.detail}
+          detail={
+            <ol className="list-disc pl-5">
+              {item.detail.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}
+            </ol>
+          }
         />
       ))}
     </div>

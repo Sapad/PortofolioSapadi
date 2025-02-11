@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../assets/Image/1692347361363.jpg";
-import CV from "../assets/CV_Sapto_Adiyanto.pdf";
+import CV from "../assets/File/CV Sapto Adiyanto.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { MdOutlineWork } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
@@ -25,13 +25,15 @@ const Main = () => {
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "FreshGraduate",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Web Developer, FrontEnd Developer",
-                2000,
+                1500, // wait 1s before replacing "Mice" with "Hamsters"
+                "Web Developer",
+                1500,
+                "FrontEnd Developer",
+                1500,
               ]}
               wrapper="div"
               cursor={true}
-              style={{ fontSize: "1em", paddingLeft: "5px" }}
+              style={{ fontSize: "1em", paddingLeft: "10px" }}
               repeat={Infinity}
             />
           </h2>

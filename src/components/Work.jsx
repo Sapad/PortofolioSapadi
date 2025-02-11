@@ -1,22 +1,33 @@
 import React from "react";
 import WorksItems from "./WorkItems";
+
 const Work = () => {
   const data = [
     {
       perusahaan: "Percetakan Uang Republik Indonesia",
       tanggal: "Agustus - Desember 2024",
-      title: "Seksi Sistem Keamanan Teknologi Informasi (Intern)",
-      detail:
-        "Melakukan pemeriksaan server secara rutin dan mempelajari Grafana untuk pemeliharaan. Mempelajari Linux untuk konfigurasi server. Membantu sebagai Customer Service ketika ada masalah dengan E-materai. Membuat aplikasi monitoring user yang tidak aktif maupun yang aktif sebagai tugas akhir dengan framework laravel sebagai frontend dan springboot dengan bahasa java sebagai backend. Mempelajari bahasa pemrograman java dan jruby serta membuat API sederhana.",
+      title: "Seksi Pemeliharaan Sistem Teknologi Informasi (Intern)",
+      detail: [
+        "Melakukan pemeriksaan server secara rutin dan mempelajari Grafana untuk pemeliharaan.",
+        "Mempelajari Linux untuk konfigurasi server.",
+        "Membantu sebagai Customer Service ketika ada masalah dengan E-materai.",
+        "Membuat aplikasi monitoring user yang tidak aktif maupun yang aktif sebagai tugas akhir dengan framework Laravel sebagai frontend dan Spring Boot dengan bahasa Java sebagai backend.",
+        "Mempelajari bahasa pemrograman Java dan JRuby serta membuat API sederhana.",
+      ],
     },
     {
       perusahaan: "BTPN Syariah",
-      tanggal: "December 2023 - January 2024",
+      tanggal: "Desember 2023 - Januari 2024",
       title: "Fullstack Developer (Intern)",
-      detail:
-        "Membuat, merancang antarmuka web menggunakan Vue JS. Menulis yang efisien dan mengelola dasar codingan. Mempelajari Java dan Golang dengan konsep dasar. Melakukan commit, push, dan pull pada git dan github. Membuat database dengan case real. Final Project membuat API menggunakan Golang dengan case real dan membuat upload dan hapus gambar. ",
+      detail: [
+        "Membuat dan merancang antarmuka web menggunakan Vue JS.",
+        "Mempelajari Java dan Golang dengan konsep dasar.",
+        "Melakukan commit, push, dan pull pada Git dan GitHub.",
+        "Final Project membuat API menggunakan Golang dengan case real dan membuat upload dan hapus gambar.",
+      ],
     },
   ];
+
   return (
     <div className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1
@@ -30,7 +41,13 @@ const Work = () => {
           year={item.tanggal}
           title={item.title}
           build={item.perusahaan}
-          detail={item.detail}
+          detail={
+            <ol className="list-disc pl-5">
+              {item.detail.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}
+            </ol>
+          }
         />
       ))}
     </div>
