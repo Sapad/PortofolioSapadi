@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMdHome } from "react-icons/io";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -28,6 +28,9 @@ function Footer() {
           target="_blank"
           rel="noreferrer">
           <FaInstagram size={30} />
+        </a>
+        <a href="https://wa.me/6287888375865" target="_blank" rel="noreferrer">
+          <FaWhatsapp className="cursor-pointer" size={30} />
         </a>
       </nav>
     </footer>

@@ -3,7 +3,7 @@ import background from "../assets/Image/1692347361363.jpg";
 import CV from "../assets/File/CV Sapto Adiyanto.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { MdOutlineWork } from "react-icons/md";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -37,7 +37,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-4 items-center max-w-[200px] w-full">
+          <div className="flex justify-between pt-4 items-center max-w-[200px] gap-10 w-full">
             <a
               href="https://www.linkedin.com/in/sapto-adiyanto-787351207/"
               target="_blank"
@@ -66,6 +66,14 @@ const Main = () => {
               download
               rel="noreferrer">
               <MdOutlineWork className="cursor-pointer" size={30} />
+            </a>
+            <a
+              href="https://wa.me/6287888375865"
+              className="text-[#001b5e]"
+              target="_blank"
+              download
+              rel="noreferrer">
+              <FaWhatsapp className="cursor-pointer" size={30} />
             </a>
           </div>
         </div>
